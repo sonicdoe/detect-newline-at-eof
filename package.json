@@ -13,6 +13,10 @@
 		"eof"
 	],
 	"license": "BSD-2-Clause",
+	"files": [
+		"index.js",
+		"LICENSE"
+	],
 	"scripts": {
 		"test": "mocha"
 	},
