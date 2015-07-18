@@ -33,6 +33,8 @@ console.log(newlineCharacter);
 
 This project follows [Semantic Versioning 2](http://semver.org/).
 
+- v0.1.0 (2015-07-18): Initial release.
+
 ## License
 
 detect-newline-at-eof is licensed under the BSD 2-clause license. See [LICENSE](./LICENSE) for the full license text.
