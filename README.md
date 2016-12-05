@@ -1,8 +1,8 @@
 # detect-newline-at-eof
 
 [![Node.js package](https://img.shields.io/npm/v/detect-newline-at-eof.svg)](https://www.npmjs.com/package/detect-newline-at-eof)
-[![Linux Build Status](https://img.shields.io/travis/SonicHedgehog/detect-newline-at-eof/develop.svg)](https://travis-ci.org/SonicHedgehog/detect-newline-at-eof)
-[![Windows Build Status](https://img.shields.io/appveyor/ci/SonicHedgehog/detect-newline-at-eof.svg)](https://ci.appveyor.com/project/SonicHedgehog/detect-newline-at-eof)
+[![Linux Build Status](https://img.shields.io/travis/sonicdoe/detect-newline-at-eof/develop.svg)](https://travis-ci.org/sonicdoe/detect-newline-at-eof)
+[![Windows Build Status](https://img.shields.io/appveyor/ci/sonicdoe/detect-newline-at-eof.svg)](https://ci.appveyor.com/project/sonicdoe/detect-newline-at-eof)
 
 Detect newline at end of file.
 

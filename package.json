@@ -5,7 +5,7 @@
 	"description": "Detect newline at end of file.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/SonicHedgehog/detect-newline-at-eof.git"
+		"url": "https://github.com/sonicdoe/detect-newline-at-eof.git"
 	},
 	"keywords": [
 		"detect",
