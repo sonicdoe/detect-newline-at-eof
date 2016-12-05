@@ -1,7 +1,7 @@
 {
 	"name": "detect-newline-at-eof",
 	"version": "0.1.0",
-	"author": "Jakob Krigovsky <jakob.krigovsky@gmail.com>",
+	"author": "Jakob Krigovsky <jakob@krigovsky.com>",
 	"description": "Detect newline at end of file.",
 	"repository": {
 		"type": "git",
