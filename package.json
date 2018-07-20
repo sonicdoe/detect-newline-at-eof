@@ -2,7 +2,7 @@
 	"name": "detect-newline-at-eof",
 	"version": "0.1.0",
 	"author": "Jakob Krigovsky <jakob@krigovsky.com>",
-	"description": "Detect newline at end of file.",
+	"description": "Detect newline at end of file",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/sonicdoe/detect-newline-at-eof.git"
