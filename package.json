@@ -1,6 +1,6 @@
 {
 	"name": "detect-newline-at-eof",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Detect newline at end of file",
 	"keywords": [
 		"detect",
