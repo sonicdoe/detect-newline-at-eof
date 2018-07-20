@@ -1,40 +1,38 @@
 # detect-newline-at-eof
 
 [![Node.js package](https://img.shields.io/npm/v/detect-newline-at-eof.svg)](https://www.npmjs.com/package/detect-newline-at-eof)
-[![Linux Build Status](https://img.shields.io/travis/SonicHedgehog/detect-newline-at-eof/develop.svg)](https://travis-ci.org/SonicHedgehog/detect-newline-at-eof)
-[![Windows Build Status](https://img.shields.io/appveyor/ci/SonicHedgehog/detect-newline-at-eof.svg)](https://ci.appveyor.com/project/SonicHedgehog/detect-newline-at-eof)
+[![Linux Build Status](https://img.shields.io/travis/sonicdoe/detect-newline-at-eof/develop.svg)](https://travis-ci.org/sonicdoe/detect-newline-at-eof)
+[![Windows Build Status](https://img.shields.io/appveyor/ci/sonicdoe/detect-newline-at-eof/develop.svg)](https://ci.appveyor.com/project/sonicdoe/detect-newline-at-eof)
 
-Detect newline at end of file.
+> Detect newline at end of file
 
-detect-newline-at-eof is similar to [trailing-newline](https://github.com/bendrucker/trailing-newline) but will also match `\n` on Windows and `\r\n` on OS X.
+detect-newline-at-eof is similar to [trailing-newline](https://github.com/bendrucker/trailing-newline) but will also match `\n` on Windows and `\r\n` on macOS.
 
-## Getting started
+## Installation
 
-Install using:
-
-```shell
-$ npm install detect-newline-at-eof --save
+```console
+$ npm install detect-newline-at-eof
 ```
 
-Use it like this:
+## Usage
 
 ```js
-var fs = require('fs');
-var detectNewlineAtEof = require('detect-newline-at-eof');
+const fs = require('fs')
+const detectNewlineAtEof = require('detect-newline-at-eof')
 
-var fileContents = fs.readFileSync('file.txt', 'utf8');
-var newlineCharacter = detectNewlineAtEof(fileContents);
+const fileContents = fs.readFileSync('file.txt', 'utf8')
+const newlineCharacter = detectNewlineAtEof(fileContents)
 
-// \n, \r\n, or null if no newline character at end of file was found.
-console.log(newlineCharacter);
+console.log(newlineCharacter)
+// => \n, \r\n, or null if no newline character at the end was found
 ```
 
-## Release History
+## Changelog
 
-This project follows [Semantic Versioning 2](http://semver.org/).
+This project follows [Semantic Versioning 2](https://semver.org).
 
+- v1.0.0 (2018-07-20):
+  - Add support for Node.js v6, v8, and v10
+  - Drop support for Node.js versions older than v6
+  - Drop support for io.js
 - v0.1.0 (2015-07-18): Initial release.
-
-## License
-
-detect-newline-at-eof is licensed under the BSD 2-clause license. See [LICENSE](./LICENSE) for the full license text.

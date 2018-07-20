@@ -1,26 +1,32 @@
 {
 	"name": "detect-newline-at-eof",
-	"version": "0.1.0",
-	"author": "Jakob Krigovsky <jakob.krigovsky@gmail.com>",
-	"description": "Detect newline at end of file.",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/SonicHedgehog/detect-newline-at-eof.git"
-	},
+	"version": "1.0.0",
+	"description": "Detect newline at end of file",
 	"keywords": [
 		"detect",
 		"newline",
 		"eof"
 	],
 	"license": "BSD-2-Clause",
+	"repository": "sonicdoe/detect-newline-at-eof",
+	"author": "Jakob Krigovsky <jakob@krigovsky.com>",
 	"files": [
-		"index.js",
-		"LICENSE"
+		"index.js"
 	],
 	"scripts": {
-		"test": "mocha"
+		"test": "xo && mocha"
 	},
 	"devDependencies": {
-		"mocha": "^2.2.5"
+		"mocha": "^5.2.0",
+		"xo": "^0.21.1"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"xo": {
+		"envs": [
+			"mocha"
+		],
+		"semicolon": false
 	}
 }

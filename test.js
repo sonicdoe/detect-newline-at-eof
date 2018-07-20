@@ -1,26 +1,26 @@
 'use strict'
 
-var assert = require('assert')
-var detectNewlineAtEof = require('./')
+const assert = require('assert')
+const detectNewlineAtEof = require('.')
 
-it('should detect \\n at end of file', function() {
+it('should detect \\n at end of file', () => {
 	assert.strictEqual(detectNewlineAtEof('foo\nbar\n'), '\n')
 })
 
-it('should detect \\r\\n at end of file', function() {
+it('should detect \\r\\n at end of file', () => {
 	assert.strictEqual(detectNewlineAtEof('foo\r\nbar\r\n'), '\r\n')
 })
 
-it('should ignore \\n in between', function() {
+it('should ignore \\n in between', () => {
 	assert.strictEqual(detectNewlineAtEof('foo\nbar'), null)
 })
 
-it('should ignore \\r\\n in between', function() {
+it('should ignore \\r\\n in between', () => {
 	assert.strictEqual(detectNewlineAtEof('foo\r\nbar'), null)
 })
 
-it('should throw a TypeError if argument is not a string', function() {
-	assert.throws(function() {
+it('should throw a TypeError if argument is not a string', () => {
+	assert.throws(() => {
 		detectNewlineAtEof({})
 	}, TypeError)
 })
