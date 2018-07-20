@@ -14,12 +14,19 @@
 		"index.js"
 	],
 	"scripts": {
-		"test": "mocha"
+		"test": "xo && mocha"
 	},
 	"devDependencies": {
-		"mocha": "^5.2.0"
+		"mocha": "^5.2.0",
+		"xo": "^0.21.1"
 	},
 	"engines": {
 		"node": ">=6"
+	},
+	"xo": {
+		"envs": [
+			"mocha"
+		],
+		"semicolon": false
 	}
 }
