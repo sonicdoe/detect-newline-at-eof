@@ -31,4 +31,8 @@ console.log(newlineCharacter)
 
 This project follows [Semantic Versioning 2](https://semver.org).
 
+- v1.0.0 (2018-07-20):
+  - Add support for Node.js v6, v8, and v10
+  - Drop support for Node.js versions older than v6
+  - Drop support for io.js
 - v0.1.0 (2015-07-18): Initial release.
